@@ -1,6 +1,6 @@
 # SystemEye
 
-[![Swift 4.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
+[![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
 
 [![Version](https://img.shields.io/cocoapods/v/SystemEye.svg?style=flat)](http://cocoapods.org/pods/SystemEye)
 [![License](https://img.shields.io/cocoapods/l/SystemEye.svg?style=flat)](http://cocoapods.org/pods/SystemEye)
