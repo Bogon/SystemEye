@@ -89,7 +89,7 @@
 		9E24FAE51E8132EF001AD0D7 /* NetObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetObjc.m; sourceTree = "<group>"; };
 		9E24FAE61E8132EF001AD0D7 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 		CF2465B179DE0365AE0CDFAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F2A5156B64F06E499083A3A2 /* SystemEye.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SystemEye.podspec; path = ../SystemEye.podspec; sourceTree = "<group>"; };
+		F2A5156B64F06E499083A3A2 /* SystemEye.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SystemEye.podspec; path = ../SystemEye.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAE3212067D5B3B1598AFAFA /* Pods-SystemEye_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemEye_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SystemEye_Tests/Pods-SystemEye_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB16F65204C141F72B9B974C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -361,6 +361,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -410,7 +411,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SystemEye_Example/Pods-SystemEye_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SystemEye_Example/Pods-SystemEye_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SystemEye/SystemEye.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -419,7 +420,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SystemEye_Example/Pods-SystemEye_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SystemEye_Example/Pods-SystemEye_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3869EC300926761D7BB21AF6 /* [CP] Check Pods Manifest.lock */ = {
